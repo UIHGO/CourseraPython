@@ -1,0 +1,8 @@
+score = input("Enter Score: ")
+sc = float(score)
+if sc>1.0 : print("Error")
+elif sc<0.6 : print("F")
+elif sc<0.7 : print("D")
+elif sc<0.8 : print("C")
+elif sc<0.9 : print("B")
+elif sc<=1.0 : print("A")
